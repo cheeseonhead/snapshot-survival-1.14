@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_rose"
+    },
+    "title": "我越凋零 我越美",
+    "description": "獲得一朵凋零玫瑰",
+    "frame": "goal"
+  },
+  "parent": "coh_ss:snapshot/find_flower",
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "minecraft:wither_rose"
+        }]
+      }
+    }
+  }
+}

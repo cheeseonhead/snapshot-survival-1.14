@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:scaffolding"
+    },
+    "title": "人往高處走 水往低處流",
+    "description": "用支架蓋高的東西",
+    "frame": "goal"
+  },
+  "parent": "coh_ss:snapshot/bamboo",
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

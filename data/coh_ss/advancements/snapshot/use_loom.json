@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:loom"
+    },
+    "title": "後宮佳麗三千人 鐵杵磨成繡花針",
+    "description": "拿著你的繡花針織布吧！",
+    "frame": "goal"
+  },
+  "parent": "coh_ss:snapshot/root",
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

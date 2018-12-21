@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cornflower"
+    },
+    "title": "菊花殘 滿地傷～",
+    "description": "捻下一朵矢車菊",
+    "frame": "goal"
+  },
+  "parent": "coh_ss:snapshot/find_flower",
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "minecraft:cornflower"
+        }]
+      }
+    }
+  }
+}

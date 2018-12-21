@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lily_of_the_valley"
+    },
+    "title": "我要找我的小蘭～",
+    "description": "捻下一朵鈴蘭",
+    "frame": "goal"
+  },
+  "parent": "coh_ss:snapshot/find_flower",
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "minecraft:lily_of_the_valley"
+        }]
+      }
+    }
+  }
+}

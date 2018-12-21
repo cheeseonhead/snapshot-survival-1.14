@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:creeper_head"
+    },
+    "title": "綠棒凋零",
+    "description": "用凋零玫瑰殺死一隻苦力怕",
+    "frame": "challenge"
+  },
+  "parent": "coh_ss:snapshot/find_wither_rose",
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

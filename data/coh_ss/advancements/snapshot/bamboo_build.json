@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bamboo"
+    },
+    "title": "竹林七賢",
+    "description": "用竹子佈置你的家",
+    "frame": "goal"
+  },
+  "parent": "coh_ss:snapshot/bamboo",
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:bamboo"
+      }
+    }
+  }
+}

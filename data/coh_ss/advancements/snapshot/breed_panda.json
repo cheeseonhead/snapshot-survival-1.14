@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wheat"
+    },
+    "title": "傳宗接代",
+    "description": "讓熊貓生寶寶",
+    "frame": "goal"
+  },
+  "parent": "coh_ss:snapshot/find_panda",
+  "criteria": {
+    "panda": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:panda"
+        }
+      }
+    }
+  }
+}
