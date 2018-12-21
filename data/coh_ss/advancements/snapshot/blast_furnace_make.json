@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blast_furnace"
+    },
+    "title": "進階熔爐",
+    "description": "作出一個高爐",
+    "frame": "goal"
+  },
+  "parent": "coh_ss:snapshot/root",
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "minecraft:blast_furnace"
+        }]
+      }
+    }
+  }
+}
