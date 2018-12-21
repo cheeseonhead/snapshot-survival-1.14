@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crossbow"
+    },
+    "title": "三箭齊發",
+    "description": "附魔十字弩(分裂箭矢)",
+    "frame": "challenge"
+  },
+  "parent": "coh_ss:snapshot/crossbow_make",
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:crossbow"
+        },
+        "enchantments":[{
+            "enchantment": "multishot"
+        }]
+      }
+    }
+  }
+}
