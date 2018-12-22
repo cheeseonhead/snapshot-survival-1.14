@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": "不好的徵兆",
+    "description": "獲得不祥之兆的效果",
+    "frame": "goal"
+  },
+  "parent": "coh_ss:snapshot/root",
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:bad_omen": {}
+        }
+      }
+    }
+  }
+}
