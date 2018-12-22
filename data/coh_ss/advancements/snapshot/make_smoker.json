@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:smoker"
+    },
+    "title": "找到你烤麵包的靈魂",
+    "description": "製作一個煙薰爐",
+    "frame": "goal"
+  },
+  "parent": "coh_ss:snapshot/root",
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
