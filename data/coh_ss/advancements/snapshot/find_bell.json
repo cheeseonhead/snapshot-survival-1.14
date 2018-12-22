@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bell"
+    },
+    "title": "小叮叮叮叮噹",
+    "description": "找到一個鈴鐺",
+    "frame": "goal"
+  },
+  "parent": "coh_ss:snapshot/root",
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "minecraft:bell"
+        }]
+      }
+    }
+  }
+}
