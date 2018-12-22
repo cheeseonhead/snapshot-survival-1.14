@@ -13,3 +13,6 @@ scoreboard players add @a loomUse 0
 
 scoreboard objectives add scaffoldingUse minecraft.used:minecraft.scaffolding
 scoreboard players add @a scaffoldingUse 0
+
+scoreboard objectives add scaffoldingMake minecraft.crafted:minecraft.scaffolding
+scoreboard players add @a scaffoldingMake 0

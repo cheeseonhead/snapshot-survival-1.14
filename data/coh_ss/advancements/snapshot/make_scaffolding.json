@@ -3,11 +3,11 @@
     "icon": {
       "item": "minecraft:scaffolding"
     },
-    "title": "人往高處走 水往低處流",
-    "description": "用支架蓋高的東西",
+    "title": "找到你的支柱",
+    "description": "合成支架",
     "frame": "goal"
   },
-  "parent": "coh_ss:snapshot/make_scaffolding",
+  "parent": "coh_ss:snapshot/bamboo",
   "criteria": {
     "coal": {
       "trigger": "minecraft:impossible"
