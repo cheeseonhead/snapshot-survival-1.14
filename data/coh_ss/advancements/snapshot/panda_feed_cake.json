@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cake"
+    },
+    "title": "給熊貓點甜頭吃",
+    "description": "餵熊貓蛋糕",
+    "frame": "goal"
+  },
+  "parent": "coh_ss:snapshot/find_panda",
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
