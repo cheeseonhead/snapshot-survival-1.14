@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:grindstone"
+    },
+    "title": "磨起來磨起來",
+    "description": "製作一個砂輪",
+    "frame": "goal"
+  },
+  "parent": "coh_ss:snapshot/root",
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
