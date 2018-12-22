@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bell"
+    },
+    "title": "叮叮噹叮叮噹 鈴聲多響亮",
+    "description": "用鈴鐺佈置你的家",
+    "frame": "goal"
+  },
+  "parent": "coh_ss:snapshot/find_bell",
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:bell"
+      }
+    }
+  }
+}
