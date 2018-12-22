@@ -1,19 +1,19 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:illager_beast_spawn_egg"
+      "item": "minecraft:pillager_spawn_egg"
     },
-    "title": "萬獸剋星",
-    "description": "殺死一隻災厄之獸",
+    "title": "掠奪剋星",
+    "description": "殺死一隻掠奪者",
     "frame": "challenge"
   },
-  "parent": "coh_ss:snapshot/kill_pillager",
+  "parent": "coh_ss:snapshot/root",
   "criteria": {
     "coal": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:illager_beast"
+          "type": "minecraft:pillager"
         }
       }
     }

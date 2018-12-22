@@ -7,7 +7,7 @@
     "description": "獲得不祥之兆的效果",
     "frame": "goal"
   },
-  "parent": "coh_ss:snapshot/kill_illager_beast",
+  "parent": "coh_ss:snapshot/kill_pillager",
   "criteria": {
     "coal": {
       "trigger": "minecraft:effects_changed",
