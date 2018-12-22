@@ -17,3 +17,6 @@ execute as @a[advancements={coh_ss:snapshot/make_scaffolding=false},scores={scaf
 
 # Feed panda cake
 execute at @e[type=minecraft:panda,nbt={HandItems:[{id:"minecraft:cake"}]}] run advancement grant @p only coh_ss:snapshot/panda_feed_cake
+
+# Make smoker
+execute as @a[advancements={coh_ss:snapshot/make_smoker=false},scores={smokerMake=1..}] run advancement grant @s only coh_ss:snapshot/make_smoker

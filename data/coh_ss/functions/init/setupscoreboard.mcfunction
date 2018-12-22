@@ -16,3 +16,6 @@ scoreboard players add @a scaffoldingUse 0
 
 scoreboard objectives add scaffoldingMake minecraft.crafted:minecraft.scaffolding
 scoreboard players add @a scaffoldingMake 0
+
+scoreboard objectives add smokerMake minecraft.crafted:minecraft.smoker
+scoreboard players add @a smokerMake 0
