@@ -20,3 +20,6 @@ execute at @e[type=minecraft:panda,nbt={HandItems:[{id:"minecraft:cake"}]}] run 
 
 # Make smoker
 execute as @a[advancements={coh_ss:snapshot/make_smoker=false},scores={smokerMake=1..}] run advancement grant @s only coh_ss:snapshot/make_smoker
+
+# Make grindstone
+execute as @a[advancements={coh_ss:snapshot/make_gridnstone=false},scores={grindstoneMake=1..}] run advancement grant @s only coh_ss:snapshot/make_gridnstone
