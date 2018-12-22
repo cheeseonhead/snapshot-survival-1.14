@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:illager_beast_spawn_egg"
+    },
+    "title": "萬獸剋星",
+    "description": "殺死一隻災厄之獸",
+    "frame": "challenge"
+  },
+  "parent": "coh_ss:snapshot/root",
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:illager_beast"
+        }
+      }
+    }
+  }
+}
